@@ -1,18 +1,51 @@
 body {
     background-color: hsl(226, 43%, 10%);
-    /* color: hsl(236, 100%, 87%); */
+    color: hsl(236, 100%, 87%);
     color: #fff;
     font-family: 'Rubik', sans-serif;
+    margin: auto;
+    width: 375px;
 }
 
+nav {
+    background-color: hsl(235, 46%, 20%);
+    padding: 25px;
+    border-radius: 10px;
+}
 
-img {
+li {
+    list-style: none;
+    display: inline;
 }
 
 section {
     background-color: hsl(235, 46%, 20%);
-    padding: 20px;
+    padding: 10px 25px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div {
+    margin-bottom: 25px;
+}
+
+h3 {
+    flex: 50%;
+}
+
+.big-text {
+    font-size: 2em;
+    font-weight: 300px;
+    flex: 50%;
+}
+
+.previous-time {
+    color: hsl(236, 100%, 87%);
+    font-weight: 300px;
 }
 
 .card {
@@ -20,12 +53,18 @@ section {
     border-radius: 10px;
 }
 
+.profile {
+    background-color: hsl(246, 80%, 60%);
+    padding: 25px;
+    margin-bottom: -10px;
+}
+
 .work {
     background-color: hsl(15, 100%, 70%);
     background-image: url("images/icon-work.svg");
     background-repeat: no-repeat;
     background-position: right top;
-}
+} 
 
 .play {
     background-color: hsl(195, 74%, 62%);
@@ -61,6 +100,7 @@ section {
     background-repeat: no-repeat;
     background-position: right top;
 }
+
 
 .attribution { 
     font-size: 11px; 
