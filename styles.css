@@ -1,0 +1,72 @@
+body {
+    background-color: hsl(226, 43%, 10%);
+    /* color: hsl(236, 100%, 87%); */
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+img {
+}
+
+section {
+    background-color: hsl(235, 46%, 20%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card {
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.work {
+    background-color: hsl(15, 100%, 70%);
+    background-image: url("images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.play {
+    background-color: hsl(195, 74%, 62%);
+    background-image: url("images/icon-play.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.study {
+    background-color: hsl(348, 100%, 68%);
+    background-image: url("images/icon-study.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.exercise {
+    background-color: hsl(145, 58%, 55%);
+    background-image: url("images/icon-exercise.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.social {
+    background-color: hsl(264, 64%, 52%);
+    background-image: url("images/icon-social.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.self-care {
+    background-color: hsl(43, 84%, 65%);
+    background-image: url("images/icon-self-care.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
