@@ -20,6 +20,16 @@ section {
     border-radius: 10px;
 }
 
+.profileCard {
+    display: flex;
+    background-color: hsl(256, 80%, 60%);
+}
+
+.profileCard p {
+    margin-left: 24px;
+    margin-top: -1px; /*changethis */
+}
+
 .work {
     background-color: hsl(15, 100%, 70%);
     background-image: url("images/icon-work.svg");
